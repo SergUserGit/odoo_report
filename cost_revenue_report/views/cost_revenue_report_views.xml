@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+       <data>
+       <record id="cost_revenue_report_view_pivot" model="ir.ui.view">
+
+            <!--
+            <field name="name">cost_revenue_report_view.pivot</field>
+            <field name="model">cost.revenue.report</field>
+            <field name="arch" type="xml">
+                <pivot string="Cost and Revenue Analysis" type="line" sample="1">
+                    <field name="product_id" type="row"/>
+                    <field name="customer_id" type="col"/>
+                    <field name="quantity" type="measure"/>
+                    <field name="amount_cost" type="measure"/>
+                    <field name="amount_revenue" type="measure"/>
+                    <field name="amount_profit" type="measure"/>
+                </pivot>
+            </field>
+            -->
+        </record>
+        </data>
+
+        <!--
+        <record id="task_report_cost_revenue_report_view_graph" model="ir.ui.view">
+            <field name="name">task_report.cost_revenue_report_view.graph</field>
+            <field name="model">cost.revenue.report</field>
+            <field name="arch" type="xml">
+                <graph string="Cost and Revenue Analysis" type="line" sample="1">
+                    <field name="customer_id"/>
+                    <field name="amount_revenue" type="measure"/>
+                </graph>
+            </field>
+        </record>
+
+        <record id="task_report.cost_revenue_report_action_window" model="ir.actions.act_window">
+            <field name="name">Cost and revenue report</field>
+            <field name="res_model">cost.revenue.report</field>
+            <field name="view_mode">graph,pivot</field>
+        </record>
+        -->
+</odoo>

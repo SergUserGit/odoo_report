@@ -1,0 +1,16 @@
+<odoo>
+    <data>
+        <menuitem id="task_report.menu_root" name="task_report"/>
+
+        <menuitem id="task_report.menu_report" name="Report" parent="task_report.menu_root"/>
+
+        <menuitem
+
+           id="task_report.cost_revenue_report_menu"
+           name="Cost and Revenue"
+           parent="task_report.menu_root"
+           action="task_report.cost_revenue_report_action_window"
+        />
+
+    </data>
+</odoo>
